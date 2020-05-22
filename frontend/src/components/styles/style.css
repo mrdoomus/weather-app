@@ -1,0 +1,158 @@
+#App .app-container {
+  text-align: center;
+  margin: 0 10vw 0 10vw;
+}
+
+/* Search City */
+.scc-title {
+  font-size: 75px;
+  color: cornflowerblue;
+  margin: 30px 30px 20px 30px;
+}
+
+.form {
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.scc-error {
+  opacity: 0.25;
+  margin-top: 50px;
+}
+
+/* Actually*/
+.actually {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.act-holder {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 10px 0 10px 0;
+}
+
+.act-hld-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+.act-hld-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/* Minutely, Hourly and daily */
+.minutely,
+.hourly,
+.daily {
+  margin: 100px;
+}
+
+.mnt-container,
+.hrl-container,
+.dly-container {
+  text-align: left;
+}
+
+.mnt-holder,
+.hrl-holder,
+.dly-holder {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding: 10px 0 10px 0;
+}
+
+.mnt-hld-row,
+.hrl-hld-row,
+.dly-hld-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75vw;
+}
+
+.mnt-hld-column,
+.hrl-hld-column,
+.dly-hld-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  justify-items: center;
+  align-self: center;
+}
+
+.mnt-hld-column span,
+.hrl-hld-column span,
+.dly-hld-column span {
+  font-size: 25px;
+}
+
+.mnt-hld-column p,
+.hrl-hld-column p,
+.dly-hld-column p {
+  justify-self: center;
+  background-color: cornflowerblue;
+  padding: 20px;
+}
+
+/* footer animation */
+.author-dev {
+  font-size: 10px;
+  text-decoration: none;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+@keyframes colorchange {
+  0% {
+    color: blue;
+  }
+
+  10% {
+    color: #8e44ad;
+  }
+
+  20% {
+    color: #1abc9c;
+  }
+
+  30% {
+    color: #d35400;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  50% {
+    color: #34495e;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  100% {
+    color: pink;
+  }
+}
